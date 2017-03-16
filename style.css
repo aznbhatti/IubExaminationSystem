@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+background: #fff;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+line-height: 18px;
+color: #333333;;
+}
+
+img { border: none; }
+a { color: #33BFEB; text-decoration: none; }
+a:hover { text-decoration: underline; color : #000; }
+
+#wrap {
+	width: 700px;
+	margin: 40px auto;
+	margin-left: 150px;
+}
+
+#header {
+height: 50px;
+}
+
+#header h1 {
+padding: 0 0 0 20px;
+font-size: 20px;
+letter-spacing: -2px;
+}
+#header h1 a {
+color: #33BFEB;
+text-decoration: none;
+}
+#header h1 a:hover {
+text-decoration: none;
+color: #000;
+}
+#header h2 {
+padding-left: 21px;
+font-size: 14px;
+color: #666;
+font-weight: 100;
+}
+
+#top {
+background: #fff url(images/top.gif) no-repeat;
+padding: 5px 0;
+}
+
+#menu {
+height: 50px;
+line-height: 50px;
+background: #33BFEB url(images/menu.gif) no-repeat;
+font-size: 12px;
+}
+#menu ul {
+padding-left: 20px;
+list-style-type: none;
+}
+#menu ul li {
+display: block;
+float: left;
+}
+#menu ul li a {
+color: #fff;
+padding: 0 10px;
+text-decoration: none;
+font-weight: 600;
+}
+#menu ul li a:hover {
+color: #fff;
+text-decoration: underline;
+}
+
+#content {
+padding: 10px 10px;
+background: #fff url(images/content.gif) repeat-y;
+}
+.right {
+float: right;
+width: 480px;
+text-align: justify;
+padding: 0 20px 10px 10px;
+
+}
+.right h2 {
+color: #B4241B;
+font-size: 20px;
+letter-spacing: 0px;
+font-weight: 100;
+padding : 10px 0 15px 0;
+}
+.right h2 a {
+
+}
+.right h2 a:hover {
+
+}
+.left {
+float: left;
+width: 140px;
+padding: 10px;
+border-right: 1px solid #aaa;
+}
+.left h2 {
+font-size: 13px;
+color: #333;
+padding: 5px 0 2px 10px;
+}
+.left ul {
+list-style-type: none;
+padding: 5px 0 10px 5px;
+}
+.left ul li {
+padding: 2px 20px;
+background: transparent url(images/apple.gif) no-repeat;
+}
+
+.left ul li a {
+display: block;
+color: #444;
+}
+.left ul li a:hover {
+color: #33BFEB;
+}
+
+#bottom {
+background: #fff url(images/bottom.gif) no-repeat;
+padding: 10px 0;
+}
+.textfield {
+	font-size: 11px;
+	color: #333333;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	padding-left: 1px;
+
+}
+#footer {
+text-align: center;
+color: #666;
+font-size: 11px;
+}
+#footer  a { color: #666; }
